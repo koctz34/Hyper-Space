@@ -1,0 +1,61 @@
+{
+    generator: "PlanetGenerator",
+    parent: "sun",
+    iconColor: A6A09FFF,
+    orbitRadius: 95,
+    hasAtmosphere: false,
+    updateLighting: true,
+    drawOrbit: true,
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "core-capsule",
+	tidalLock: true,
+    sectorSeed: 2,
+	allowLaunchLoadout: true,
+    startSector: 9,
+    sectorSize: 2,
+    clearSectorOnLose: true,
+    allowSectorInvasion: false,
+    radius: 0.9,
+    hiddenItems: [
+		"copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
+    mesh: {
+        type: "NoiseMesh",  //NoiseMesh NoiseMesh
+        seed: 277426,
+        divisions: 4,       //3         3
+        radius: 0.9,        //0.12      0.8
+        planet: "tionr",   //2         aeyama
+        color1: "A6A09FFF",     //ff7a38    158400
+        color2: "B6DADBFF",     //ff7a38    131316
+        colorOct: 4, //i 1
+        colorPersistence: 0.5, //f 0.5
+        colorScale: 0.4, //f 1
+        colorThreshold: 0.5, //f 0.5
+        octaves: 4,         //1         4
+        persistence: 1,     //0.01      1
+        scale: 0.80,         //0.01      1.1
+        mag: 1.2,             //1         5
+    }
+}

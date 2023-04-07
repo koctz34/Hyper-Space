@@ -1,0 +1,16 @@
+type: Drill
+size: 2
+planet: tionr
+tier: 1
+hasShadow: true
+drillTime: 600
+requirements: [
+tin/50
+]
+category: production
+research: {
+parent: core-capsule
+requirements: [
+tin/50
+]
+}

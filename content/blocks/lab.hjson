@@ -1,0 +1,43 @@
+{
+    type: multicraft.MultiCrafter
+    category: "crafting",
+	ambientSound: lab,
+	ambientSoundVolume: 0.9f,
+    size: 3,
+	itemCapacity: 20,
+	drawer: {
+	type: DrawMulti
+	drawers: [DrawDefault]
+	}
+    recipes: 
+[
+{
+  input: {
+    items: [
+      hyperspace-copper-ice/5
+      hyperspace-tin/7
+    ]
+  }
+  output: hyperspace-sci-1/2
+  craftTime: 210.0
+},
+{
+  input: {
+    items: [
+      hyperspace-copper-ice/5
+      hyperspace-brass/3
+    ]
+  }
+  output: hyperspace-sci-2/2
+  craftTime: 210.0
+}
+]
+	alwaysUnlocked: true,
+    research: {
+        parent: "core-capsule",
+    },
+    requirements: [
+        "tin/50",
+		"iron/50"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    type: "ItemTurret",
+    category: "turret",
+    size: 3,
+	ammoUseEffect: casing1,
+	shootY: 3,
+    requirements: [ 
+		"tin/50",
+		"iron/60",
+		"brass/70",
+    ]
+
+    range: 85,
+    reload: 7,
+
+    shoot: {
+        shots: 1,
+    },
+
+    ammoTypes: {
+        tin: {
+            reloadMultiplier: 1,
+            ammoMultiplier: 3,
+			shootSound: shoot,
+            damage: 7,
+            height: 9,
+            speed: 2.5f,
+            width: 7
+        }
+    }
+	research: {
+        parent: "propagation",
+        requirements: [
+            "sci-1/30",
+			"sci-2/60"
+        ]
+    },
+}

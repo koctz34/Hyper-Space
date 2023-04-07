@@ -1,0 +1,77 @@
+{
+    type: multicraft.MultiCrafter
+    category: "crafting",
+	ambientSound: furnace,
+	ambientSoundVolume: 0.9f,
+    size: 3,
+	itemCapacity: 20,
+	drawer: {
+	type: multicraft.DrawRecipe
+	defaultDrawer: 0 // an index used for generating the icon of this crafter. 
+	drawers: [
+    // for recipe 0
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawRegion
+          suffix: -1
+      }
+      {
+          type: DrawArcSmelt
+      }
+    ]
+    }
+    // for recipe 1
+	{ 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawRegion
+          suffix: -2
+      }
+      {
+          type: DrawArcSmelt
+      }
+    ]
+    }
+    
+  ]
+}
+    recipes: 
+[
+{
+  input: {
+    items: [
+      hyperspace-copper-ice/2
+      hyperspace-tin/2
+    ]
+  }
+  output: hyperspace-brass/2
+  craftTime: 210.0
+},
+{
+  input: {
+    items: [
+      hyperspace-nickel/2
+      hyperspace-iron/2
+    ]
+  }
+  output: hyperspace-invar/2
+  craftTime: 250.0
+}
+]
+
+    research: {
+        //Unlocked on: ??? sector
+        parent: "core-capsule",
+        requirements: [
+            "sci-1/50"
+        ]
+    },
+    requirements: [
+        "tin/50",
+		"iron/80",
+		"copper-ice/10"
+    ]
+}

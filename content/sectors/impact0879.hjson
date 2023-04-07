@@ -1,0 +1,10 @@
+{
+    sector: 9,
+    planet: "tionr",
+    research: {
+        parent: "core-capsule",
+    },
+	captureWave: 15,
+    difficulty: 1,
+    alwaysUnlocked: true
+}
