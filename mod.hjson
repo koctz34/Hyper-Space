@@ -6,7 +6,7 @@
     author: "koctz34, nexilUA",
     subtitle:"This first version",
     description: "New planet! Exploration in this world will be interesting... In the meantime, it's in beta now.",
-	java: true,
+	java: false,
 	main: MultiCrafterAdapter,
     dependencies: []
 }
