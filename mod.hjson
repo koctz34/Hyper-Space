@@ -1,12 +1,9 @@
-{
-    name: "hyperSpace",
-    minGameVersion: 141,
-    version: "1.3 beta",
-    displayName: "Hyper Space",
-    author: "koctz34, nexilUA",
-    subtitle:"This first version",
-    description: "New planet! Exploration in this world will be interesting... In the meantime, it's in beta now.",
-	java: false,
-	main: MultiCrafterAdapter,
-    dependencies: []
-}
+name: "hyperspace"
+displayName: "Hyper Space"
+author: "koctz34"
+version: "1.4"
+minGameVersion: "136"
+subtitle: "This first version"
+description: "New planet! Exploration in this world will be interesting... In the meantime, it's in beta now."
+main: MultiCrafterAdapter
+java: false
