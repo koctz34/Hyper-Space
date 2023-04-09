@@ -1,0 +1,68 @@
+{
+    type: multicraft.MultiCrafter
+    category: "crafting",
+	ambientSound: assemble,
+	ambientSoundVolume: 0.9f,
+	haspower: true,
+	powerCapacity: 2,
+    size: 3,
+	itemCapacity: 20,
+	drawer: [
+        {
+            type: "DrawRegion"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-top"
+        }
+    ]
+    recipes: 
+[
+{
+  input: {
+    items: [
+      hyperspace-coal-ice/4
+      hyperspace-tin/3
+    ],
+	power: 1
+  }
+  output: hyperspace-ammo/2
+  craftTime: 210.0
+},
+{
+  input: {
+    items: [
+      hyperspace-coal-ice/6
+      hyperspace-brass/2
+    ],
+	power: 1
+  }
+  output: hyperspace-ammo2/2
+  craftTime: 250.0
+},
+{
+  input: {
+    items: [
+      hyperspace-tin/5
+      hyperspace-copper-wire/2
+    ],
+	power: 1
+  }
+  output: hyperspace-electric-board/2
+  craftTime: 250.0
+}
+]
+
+    research: {
+        //Unlocked on: ??? sector
+        parent: "furnace",
+        requirements: [
+            "sci-1/40"
+        ]
+    },
+    requirements: [
+        "tin/60",
+		"iron/50",
+		"copper-wire/20"
+    ]
+}

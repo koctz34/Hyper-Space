@@ -12,8 +12,8 @@ lightColor: FFFFFF
 research: {
 parent: mili
 requirements: [
-sci-1/30
-sci-2/50
+sci-1/60
+sci-2/80
 ]
 }
 speed: 1

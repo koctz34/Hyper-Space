@@ -1,0 +1,18 @@
+{
+    type: "CoreBlock",
+    category: "effect",
+
+    size: 4,
+    health: 2000,
+    itemCapacity: 700,
+    unitType: "mili",
+    isFirstTier: true,
+    alwaysUnlocked: true,
+    buildVisibility: "hidden",
+
+    research: {
+        root: true,
+        name: "Tionr",
+        planet: "tionr"
+    }
+}

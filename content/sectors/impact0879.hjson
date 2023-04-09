@@ -1,5 +1,5 @@
 {
-    sector: 9,
+    sector: 81,
     planet: "tionr",
     research: {
         parent: "core-capsule",

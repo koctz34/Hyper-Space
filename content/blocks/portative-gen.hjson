@@ -1,0 +1,7 @@
+type: SolarGenerator
+size: 2
+hasPower: true
+powerProduction: 2
+editorOnly: true
+buildVisibility: editorOnly
+category: power

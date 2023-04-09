@@ -3,6 +3,8 @@
     category: "crafting",
 	ambientSound: lab,
 	ambientSoundVolume: 0.9f,
+	haspower: true,
+	powerCapacity: 2,
     size: 3,
 	itemCapacity: 20,
 	drawer: {
@@ -25,8 +27,10 @@
   input: {
     items: [
       hyperspace-copper-ice/5
-      hyperspace-brass/3
+      hyperspace-brass/2
+	  hyperspace-ammo/2
     ]
+	power: 1
   }
   output: hyperspace-sci-2/2
   craftTime: 210.0
@@ -38,6 +42,7 @@
     },
     requirements: [
         "tin/50",
-		"iron/50"
+		"iron/50",
+		"copper-wire/10"
     ]
 }

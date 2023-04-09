@@ -1,0 +1,29 @@
+{
+    type: multicraft.MultiCrafter
+    category: "crafting",
+	ambientSound: assemble,
+	ambientSoundVolume: 0.4f,
+    size: 2,
+	itemCapacity: 10,
+    recipes: 
+[
+{
+  input: {
+    items: [
+      hyperspace-copper-ice/4
+    ]
+  }
+  output: hyperspace-copper-wire/3
+  craftTime: 210.0
+}
+]
+	alwaysUnlocked: true
+
+    research: {
+        parent: "furnace",
+    },
+    requirements: [
+        "tin/50",
+		"iron/60"
+    ]
+}
